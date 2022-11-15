@@ -1,0 +1,65 @@
+
+# Skip Location Button
+* "2" Wait
+* "com.m.qr:id/skip_button" Skip Location
+* "1" Wait
+
+# Skip Welcome Page
+* "1" Wait
+* "com.m.qr:id/onboarding_skip_button" Welcome Page
+* "3" Wait
+
+
+# Click Remind Me Later Button
+* "2" Wait
+* "com.m.qr:id/skip" Click Remind Me Later
+* "2" Wait
+
+# Click Decline Button
+* "2" Wait
+* "com.m.qr:id/push_consent_decline" Click Decline
+* "2" Wait
+
+# Click Close Limitless Privileges
+* "2" Wait
+* "com.m.qr:id/secondary_button" Click Limitless Button
+* "2" Wait
+
+# Click Book Menu
+* "2" Wait
+* "com.m.qr:id/nav_menu_book" Click Book Menu
+
+# Select One Way
+* "2" Wait
+* "One-way" Select One Way Trip
+
+# Select From Trip
+* "2" Wait
+* "com.m.qr:id/rvmp_fragment_rtow_flight_selection_origin_holder" Select From Trip and Write "Berlin"
+
+# Select To Trip
+* "2" Wait
+* "com.m.qr:id/rvmp_fragment_rtow_flight_selection_destination_holder" Select To Trip and Write "İstanbul"
+
+# Click Departure Date
+* "2" Wait
+* "com.m.qr:id/rvmp_fragment_rtow_flight_selection_date_holder_date_text_view" Click Date
+
+# Select Travel Date
+* "2" Wait
+* "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/androidx.recyclerview.widget.RecyclerView/android.widget.LinearLayout[1]/android.widget.LinearLayout[4]/android.widget.TextView[3]" Select Travel
+
+# Click Confirm
+* "2" Wait
+* "com.m.qr:id/fragment_calendar_confirm_button" Click Confirm
+
+# Search Flights
+* "2" Wait
+* "com.m.qr:id/rvmp_booking_search_flights_button" Click Search Flights
+
+# Select Flight
+* "2" Wait
+* "/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.LinearLayout/androidx.recyclerview.widget.RecyclerView/android.view.ViewGroup[1]" Select Flight
+
+
+
