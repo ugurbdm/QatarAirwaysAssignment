@@ -81,7 +81,7 @@ public class StepImplementation extends BaseTest {
 
     }
 
-    @Step("<ID> Select From Trip and Write <key> ")
+    @Step("<ID> Select From Trip and Write <key>")
     public void selectFromTrip(String ID, String key) {
 
         MobileElement element = appiumDriver.findElement(By.id(ID));
@@ -90,7 +90,7 @@ public class StepImplementation extends BaseTest {
 
     }
 
-    @Step("<ID> Select To Trip and Write <key> ")
+    @Step("<ID> Select To Trip and Write <key>")
     public void selectToTrip(String ID, String key) {
 
         MobileElement element = appiumDriver.findElement(By.id(ID));
